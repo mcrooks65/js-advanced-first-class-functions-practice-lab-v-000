@@ -10,5 +10,5 @@ const logDriversByHometown = function (drivers, location) {
     if (driver.hometown === location) {
       console.log(driver.name);
     }
-  }
-}
+  });
+};
